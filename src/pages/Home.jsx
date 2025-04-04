@@ -13,7 +13,7 @@ function Home() {
       >
         <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mb-6">
           Transforming Ideas into
-          <span className="text-purple-600"> Digital Reality</span>
+          <span className="text-purple-900"> Digital Reality</span>
         </h1>
         <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
           We are a leading software engineering company specializing in creating
@@ -21,7 +21,7 @@ function Home() {
         </p>
         <Link
           to="/contact"
-          className="inline-flex items-center px-6 py-3 bg-purple-600 text-white font-semibold rounded-lg hover:bg-purple-700 transition-colors duration-200"
+          className="inline-flex items-center px-6 py-3 bg-purple-900 text-white font-semibold rounded-lg hover:bg-purple-600 transition-colors duration-200"
         >
           Get Started
           <ArrowRight className="ml-2 h-5 w-5" />
@@ -36,14 +36,14 @@ function Home() {
           transition={{ delay: 0.2 }}
           className="bg-white p-6 rounded-lg shadow-lg"
         >
-          <Code className="h-12 w-12 text-purple-600 mb-4" />
+          <Code className="h-12 w-12 text-purple-900 mb-4" />
           <h3 className="text-xl font-semibold mb-2">Web Development</h3>
           <p className="text-gray-600 mb-4">
             Custom web applications built with cutting-edge technologies.
           </p>
           <Link
             to="/services"
-            className="text-purple-600 hover:text-purple-700 font-medium inline-flex items-center"
+            className="text-purple-900 hover:text-purple-600 font-medium inline-flex items-center"
           >
             Learn More
             <ArrowRight className="ml-1 h-4 w-4" />
@@ -56,14 +56,14 @@ function Home() {
           transition={{ delay: 0.4 }}
           className="bg-white p-6 rounded-lg shadow-lg"
         >
-          <Smartphone className="h-12 w-12 text-purple-600 mb-4" />
+          <Smartphone className="h-12 w-12 text-purple-900 mb-4" />
           <h3 className="text-xl font-semibold mb-2">Mobile Apps</h3>
           <p className="text-gray-600 mb-4">
             Native and cross-platform mobile applications for iOS and Android.
           </p>
           <Link
             to="/services"
-            className="text-purple-600 hover:text-purple-700 font-medium inline-flex items-center"
+            className="text-purple-900 hover:text-purple-600 font-medium inline-flex items-center"
           >
             Learn More
             <ArrowRight className="ml-1 h-4 w-4" />
@@ -76,14 +76,14 @@ function Home() {
           transition={{ delay: 0.6 }}
           className="bg-white p-6 rounded-lg shadow-lg"
         >
-          <Cpu className="h-12 w-12 text-purple-600 mb-4" />
+          <Cpu className="h-12 w-12 text-purple-900 mb-4" />
           <h3 className="text-xl font-semibold mb-2">AI Integration</h3>
           <p className="text-gray-600 mb-4">
             Machine learning and AI solutions for business growth.
           </p>
           <Link
             to="/services"
-            className="text-purple-600 hover:text-purple-700 font-medium inline-flex items-center"
+            className="text-purple-900 hover:text-purple-600 font-medium inline-flex items-center"
           >
             Learn More
             <ArrowRight className="ml-1 h-4 w-4" />
@@ -107,7 +107,7 @@ function Home() {
             </p>
             <Link
               to="/projects"
-              className="inline-flex items-center px-4 py-2 bg-purple-600 text-white font-semibold rounded-lg hover:bg-purple-700 transition-colors duration-200"
+              className="inline-flex items-center px-4 py-2 bg-purple-900 text-white font-semibold rounded-lg hover:bg-purple-600 transition-colors duration-200"
             >
               View Case Study
               <ArrowRight className="ml-2 h-5 w-5" />

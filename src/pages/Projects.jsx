@@ -8,24 +8,28 @@ function Projects() {
   const allProjects = {
     web: [
       {
-        title: "E-Commerce Platform",
-        description:
-          "A full-featured online shopping platform with real-time inventory management.",
-        image:
-          "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2089&q=80",
+        title: "Recipes website",
+        description: "A website for sharing and discovering recipes.",
+        image: "public/img/ricepi.png",
         category: "Web Development",
-        technologies: ["React", "Node.js", "PostgreSQL"],
-        url: "https://example.com/case-studies/e-commerce-platform",
+        technologies: ["React", "Java Script", "HTML", "CSS"],
+        url: "https://recipes-prodact.netlify.app/",
       },
       {
-        title: "Corporate Dashboard",
-        description:
-          "Modern analytics dashboard with real-time data visualization.",
-        image:
-          "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2015&q=80",
+        title: "Product-System website",
+        description: "A website for  products and orders.",
+        image: "public/img/Vite-React-04-04-2025_02_27_AM.png",
         category: "Web Development",
         technologies: ["Vue.js", "D3.js", "Firebase"],
-        url: "https://example.com/case-studies/corporate-dashboard",
+        url: "https://mira-products.netlify.app/",
+      },
+      {
+        title: "Car rental website",
+        description: "An e-commerce website for selling and Renting cars.",
+        image: "public/img/CarRent-Premium.png",
+        category: "Web Development",
+        technologies: ["React", "Node.js", "MongoDB"],
+        url: "https://miramaged802.github.io/car-retail/",
       },
     ],
     mobile: [
@@ -33,8 +37,7 @@ function Projects() {
         title: "Health & Fitness App",
         description:
           "Mobile application for tracking workouts and nutrition with AI-powered recommendations.",
-        image:
-          "https://images.unsplash.com/photo-1576442705004-8b5be8e8a9f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+        image: "public/img/fit.jpg",
         category: "Mobile Development",
         technologies: ["React Native", "TensorFlow", "Firebase"],
         url: "https://example.com/case-studies/health-fitness-app",
@@ -52,23 +55,31 @@ function Projects() {
     ],
     ai: [
       {
-        title: "Smart City Dashboard",
-        description:
-          "Real-time monitoring and analytics platform for urban infrastructure management.",
+        title: "Predictive Maintenance Project ",
+        description: "Predictive maintenance model for industrial equipment.",
         image:
           "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80",
         category: "AI & Analytics",
         technologies: ["Python", "TensorFlow", "AWS"],
-        url: "https://example.com/case-studies/smart-city-dashboard",
+        url: "https://github.com/Yousefamr777/predictive-maintenance-api",
       },
       {
-        title: "AI Content Generator",
-        description: "Advanced content generation platform using GPT models.",
+        title: "Stock Market Prediction Model – Alpha",
+        description: "Predictive model for stock market analysis and trading.",
         image:
           "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
         category: "AI & Analytics",
         technologies: ["PyTorch", "FastAPI", "Redis"],
-        url: "https://example.com/case-studies/ai-content-generator",
+        url: "https://github.com/Yousefamr777/Stock-Market-Prediction-Model-",
+      },
+      {
+        title: "web-scraping-car",
+        description: "Web scraping project to extract car data from a website.",
+        image:
+          "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80",
+        category: "AI & Analytics",
+        technologies: ["Python", "NLTK", "TensorFlow"],
+        url: "https://github.com/Yousefamr777/web-scraping-car",
       },
     ],
   };

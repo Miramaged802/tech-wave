@@ -42,7 +42,7 @@ function Services() {
             transition={{ delay: index * 0.1 }}
             className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-200"
           >
-            <service.icon className="h-12 w-12 text-purple-600 mb-4" />
+            <service.icon className="h-12 w-12 text-purple-900 mb-4" />
             <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
             <p className="text-gray-600">{service.description}</p>
           </motion.div>
