@@ -10,7 +10,7 @@ function Projects() {
       {
         title: "Recipes website",
         description: "A website for sharing and discovering recipes.",
-        image: "public/img/ricepi.png",
+        image: "img/ricepi.png",
         category: "Web Development",
         technologies: ["React", "Java Script", "HTML", "CSS"],
         url: "https://recipes-prodact.netlify.app/",
@@ -18,7 +18,7 @@ function Projects() {
       {
         title: "Product-System website",
         description: "A website for  products and orders.",
-        image: "public/img/Vite-React-04-04-2025_02_27_AM.png",
+        image: "img/Vite-React-04-04-2025_02_27_AM.png",
         category: "Web Development",
         technologies: ["Vue.js", "D3.js", "Firebase"],
         url: "https://mira-products.netlify.app/",
@@ -26,7 +26,7 @@ function Projects() {
       {
         title: "Car rental website",
         description: "An e-commerce website for selling and Renting cars.",
-        image: "public/img/CarRent-Premium.png",
+        image: "img/CarRent-Premium.png",
         category: "Web Development",
         technologies: ["React", "Node.js", "MongoDB"],
         url: "https://miramaged802.github.io/car-retail/",
@@ -37,7 +37,7 @@ function Projects() {
         title: "Health & Fitness App",
         description:
           "Mobile application for tracking workouts and nutrition with AI-powered recommendations.",
-        image: "public/img/fit.jpg",
+        image: "img/fit.jpg",
         category: "Mobile Development",
         technologies: ["React Native", "TensorFlow", "Firebase"],
         url: "https://example.com/case-studies/health-fitness-app",
